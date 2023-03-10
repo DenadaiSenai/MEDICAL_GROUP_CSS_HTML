@@ -1,3 +1,6 @@
+# EXEMPLO DE USO DE CSS NO HTML
+
+
 # MEDICAL GROUP
 #### Objetivo do trabalho - O objetivo deste trabalho é criar um site para a Medical Group: uma clínica especialida em tratamentos gerais, para facilitar os usúarios no uso do mesmo.  
 #### Os principais requisitos usados para toda a elaboração envolta do projeto, foram:  Jogo de cores, os 7 princípios da Gestalt, criação de um perfil para o Médico, Paciente e Administrador, tanto no formato mobile quanto no desktop.
