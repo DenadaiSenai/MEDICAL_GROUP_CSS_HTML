@@ -8,18 +8,20 @@
     </head>
     <body>
         <!-- Contêiner superior-->
-        <div class="container_main">
-            <div class="menu">
-                <li><a href="./index.html">Item 1</a></li>
-                <li><a href="">Item 2</a></li>
+        <div class="container_main" id="topo">
+            <div class="menu colorOne">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#inferior">CONTÊINER 1</a></li>
                 <p>Parágrafo na DIV</p>
             </div>
-            <div class="cardazul">
-
+            <div class="cardazul colorOne">
+                CARD AZUL
             </div>
-            <div class="cardamarelo">
-
+<a href="#"> <!-- Exemplo de uso de 'bookmark' em HTML, neste caso usar somente o "#" faz o browser retornar ao topo da página -->    
+            <div class="cardamarelo colorTwo">
+                CARD AMARELO
             </div>
+</a>
         <!-- Teste de parágrafos -->
         <!--
             <div class="imagem"></div>
@@ -32,53 +34,57 @@
             <p class="zzz1">Vermelho</p>
         -->
         </div>
+
         <!-- Contêiner inferior -->
+        <center><h1 id="inferior">CONTÊINER 1</h1></center>
         <div class="container">
+            
             <!-- Caixa 1 -->
             <div class="box">
                 <div class="boxContent colorThree">
-                  <h1 class="colorTextTwo">1</h1>
+                <h1 class="colorTextTwo">1</h1>
                 </div>
                 <div class="boxBottom colorFour">
-                   <hr class="colorThree" />
+                    <a href="#topo">
+                        <hr class="colorThree" />
 
-                   <!-- Exemplo de modificação de uma TAG com o parâmetro "style" do HTML 
-                        Neste caso, utilize a sintaxe do CSS entre aspas duplas -->
-                   <p style="text-align: center; background-color: transparent; font-size: 125%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0 auto"><b>CELULAR 1</b></p>
+                        <!-- Exemplo de modificação de uma TAG com o parâmetro "style" do HTML 
+                                Neste caso, utilize a sintaxe do CSS entre aspas duplas -->
+                        <p style="text-align: center; background-color: transparent; font-size: 125%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin: 0 auto"><b>CELULAR 1</b></p>
+                    </a>
                 </div>
             </div>
 
             <!-- Caixa 2 -->
+<a href="#topo"> <!-- Exemplo de uso de 'bookmark' em HTML-->         
             <div class="box">
                 <div class="boxContent colorOne">
-                  <h1 class="colorTextOne">2</h1>
+                <h1 class="colorTextOne">2</h1>
                 </div>
                 <div class="boxBottom colorTwo">                   
-                   <hr class="colorOne"/>
+                <hr class="colorOne"/>
                 </div>
             </div>
-
+</a>
             <!-- Caixa 3 -->
             <div class="box">
                 <div class="boxContent colorFive">
-                  <h1 class="colorTextTwo">3</h1>
+                <h1 class="colorTextTwo">3</h1>
                 </div>
                 <div class="boxBottom colorSix">
-                   <hr class="colorTwo" />
+                <hr class="colorTwo" />
                 </div>
             </div>
 
             <!-- Caixa 4 -->
             <div class="box">
                 <div class="boxContent colorFive">
-                  <h1 class="colorTextOne">4</h1>
+                <h1 class="colorTextOne">4</h1>
                 </div>
                 <div class="boxBottom colorFour">
-                   <hr class="colorOne" />
+                <hr class="colorOne" />
                 </div>
             </div>
-
-        </div>
-
-        
+        </div>   
+                   
     </body>

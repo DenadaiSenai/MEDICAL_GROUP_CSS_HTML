@@ -28,7 +28,7 @@ div.menu {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    background-color: blue;
+    background-color: transparent;
     border: 3px dashed #22a7f2;
     width: 90%;
     border-left: groove;    
