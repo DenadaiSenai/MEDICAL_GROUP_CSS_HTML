@@ -1,14 +1,8 @@
-/* CSS de exemplo */
+/* 
 
-/* Paleta de Cores
-$cor_01: #22a7f2;
-$cor_02: #87cacf;
-$cor_03: #87cacf;
-$cor_04: #87cacf;
-$cor_05: #87cacf;
-$cor_06: #87cacf;
-$cor_07: #87cacf;
-$cor_08: #87cacf;
+CSS de exemplo 
+Exemplos de classes com diversas configurações
+
 */
 
 .container_main {
@@ -75,10 +69,16 @@ div.cardamarelo {
     background-color:yellow;
 }
 
+/* Quando você quer configurar TAGs genéricas sem esfecificar a classe faça desta maneira */
+
 p {
     background-color: rgba(68, 84, 229, 0.652);
 }
 
+/* Nesta declaração <TAG>.CLASSE, isto faz com que a classe filha herde as características da
+    classe pai e você pode modificar, uma anologia com o COPIAR e COLAR e modificar a cópia
+    pode ser aplicada neste caso 
+*/
 p.erro {
     background-color: red;
 }
