@@ -1,14 +1,13 @@
 /* CSS para configuração dos contêineres de exemplo */
 
-
 /* CORES - Classes para padronizar as cores, utilize para configurar sua paleta de cores aqui*/
-.colorOne {background-color: #be0056}
-.colorTwo {background-color: #900035}
-.colorThree {background-color: #ff9069}
-.colorFour {background-color:#df5042}
-.colorTextOne {color:#900035}
-.colorTextTwo {color:#df5042}
-.colorFive {background-color: green}
+.colorOne {background-color: #c7edea}
+.colorTwo {background-color: #87cacf}
+.colorThree {background-color: #a2cedc}
+.colorFour {background-color:#87cacf}
+.colorTextOne {color:black}
+.colorTextTwo {color:#304b8f}
+.colorFive {background-color: #7bd4e0}
 .colorSix {background-color: #96ce96}
 
 
@@ -23,6 +22,7 @@ body {margin: 0px;}
     background: #cbc9c7;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
