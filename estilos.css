@@ -24,7 +24,7 @@ div.imagem {
 }
 
 div.menu {
-    background-image: url("IMG/icon_nurse.png");
+    background-image: url("IMG/medical_group_home.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
@@ -52,8 +52,8 @@ div.fixa {
 }
 
 div.cardazul {
-    width: 300px;
-    border: 15px dashed black;
+    width: 50%;
+    border: 15px dashed lightcoral;
     padding: 50px;
     margin: 0 auto;
     background-color:blue;
