@@ -1,4 +1,12 @@
-/* CSS para configuração dos contêineres de exemplo */
+/* CSS para configuração dos contêineres de exemplo 
+
+* {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+*/
+
 
 /* CORES - Classes para padronizar as cores, utilize para configurar sua paleta de cores aqui*/
 .colorOne {background-color: #c7edea}
