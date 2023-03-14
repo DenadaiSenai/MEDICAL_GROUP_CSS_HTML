@@ -9,6 +9,55 @@
 .textalignleft {text-align: left;}
 .textaligncenter {text-align: center;}
 
+.fontsize8px {font-size: 8px;}
+.fontsize10px {font-size: 10px;}
+.fontsize12px {font-size: 12px;}
+.fontsize14px {font-size: 14px;}
+.fontsize16px {font-size: 16px;}
+.fontsize18px {font-size: 18px;}
+.fontsize20px {font-size: 20px;}
+.fontsize22px {font-size: 22px;}
+.fontsize24px {font-size: 24px;}
+.fontsize26px {font-size: 26px;}
+.fontsize28px {font-size: 28px;}
+.fontsize30px {font-size: 30px;}
+.fontsize32px {font-size: 32px;}
+.fontsize34px {font-size: 34px;}
+.fontsize36px {font-size: 36px;}
+.fontsize38px {font-size: 38px;}
+.fontsize40px {font-size: 40px;}
+.fontsize42px {font-size: 42px;}
+.fontsize44px {font-size: 44px;}
+.fontsize46px {font-size: 46px;}
+.fontsize48px {font-size: 48px;}
+.fontsize50px {font-size: 50px;}
+.fontsize52px {font-size: 52px;}
+.fontsize54px {font-size: 54px;}
+.fontsize56px {font-size: 56px;}
+.fontsize58px {font-size: 58px;}
+.fontsize60px {font-size: 60px;}
+.fontsize62px {font-size: 62px;}
+.fontsize64px {font-size: 64px;}
+.fontsize66px {font-size: 66px;}
+.fontsize68px {font-size: 68px;}
+.fontsize70px {font-size: 70px;}
+.fontsize72px {font-size: 72px;}
+.fontsize74px {font-size: 74px;}
+.fontsize76px {font-size: 76px;}
+.fontsize78px {font-size: 78px;}
+.fontsize80px {font-size: 80px;}
+.fontsize82px {font-size: 82px;}
+.fontsize84px {font-size: 84px;}
+.fontsize86px {font-size: 86px;}
+.fontsize88px {font-size: 88px;}
+.fontsize90px {font-size: 90px;}
+.fontsize92px {font-size: 92px;}
+.fontsize94px {font-size: 94px;}
+.fontsize96px {font-size: 96px;}
+.fontsize98px {font-size: 98px;}
+.fontsize100px {font-size: 100px;}
+
+
 .citacao {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 12px outset #668000;
@@ -36,6 +85,7 @@ ul.nav li {
 	list-style:none;	
 	display:inline;
 	}
+
 
 ul.nav li a {
 	float:left;
