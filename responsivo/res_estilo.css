@@ -7,10 +7,12 @@ ul.nav {
 	padding:0;
 	}
 	
-ul.nav li {
+ul.nav li p{
 	list-style:none;	
 	display:inline;
+	font:1.68em  Verdana, Arial, Helvetica,	sans-serif;
 	}
+
 ul.nav li a {
 	float:left;
 	border-top:0.1em solid #fff;
@@ -18,8 +20,7 @@ ul.nav li a {
 	border-bottom:0.1em solid #909090;
 	border-left:0.1em solid #fff;
 	width:6.0em;
-	font:0.68em  Verdana, Arial, Helvetica, 
-	sans-serif;
+	font:0.68em  Verdana, Arial, Helvetica,	sans-serif;
 	background:#f1f1f1;
 	color:#333;
 	text-align:center;
@@ -41,25 +42,25 @@ div.nav1 {
 div.nav1 ul {
     list-style:none;	
     display:inline;
+	font:1.68em  Verdana, Arial, Helvetica,	sans-serif;
     }
 
 div.nav1 li a {
     float:left;
     border-top:0.1em solid #fff;
-    border-right:0.1em solid #909090;
+    border-right:0.1em dashed #909090;
     border-bottom:0.1em solid #909090;
-    border-left:0.1em solid #fff;
+    border-left:0.1em dashed #fff;
     width:6.0em;
-    font:0.68em  Verdana, Arial, Helvetica, 
-    sans-serif;
-    background:#f1f1f1;
+    background:#87cacf;
     color:#333;
     text-align:center;
     padding:0  0.2em 0.2em  0;
     text-decoration:none;
     }
+
 div.nav1 a:hover{
-    background:#999;
+    background:#96ce96;
     color:#fff;
     border-color:#000 #fafafa #fafafa #000;
     }    
