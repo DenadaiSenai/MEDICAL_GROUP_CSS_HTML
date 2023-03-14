@@ -1,7 +1,22 @@
-body {
-	background:#ddd;
-	margin:50px;
-	}
+.coverback {
+	background-image: url(/IMG/medical_group_home.png);
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: 0px 0px;
+}
+
+.textalignright {text-align: right;}
+.textalignleft {text-align: left;}
+.textaligncenter {text-align: center;}
+
+.citacao {
+	font-family: monospace;
+	border: 1% solid #668000;
+	margin: 15%;
+	background-color: #ffffff4a;	
+	padding: 10px 10px 15px 15px;
+}
+
 ul.nav { 
 	margin:0; 
 	padding:0;
@@ -11,6 +26,7 @@ ul.nav li {
 	list-style:none;	
 	display:inline;
 	}
+
 ul.nav li a {
 	float:left;
 	border-top:0.1em solid #fff;
@@ -35,8 +51,7 @@ ul.nav a:hover{
 
 div.nav1 { 
     margin:0; 
-    padding:0;
-	
+    padding:0;	
     }
     
 div.nav1 ul {
@@ -45,18 +60,17 @@ div.nav1 ul {
     }
 
 div.nav1 li a {
-    float:left;
+    float: left;
     border-top:0.1em solid #fff;
     border-right:0.1em solid #909090;
     border-bottom:0.1em solid #909090;
     border-left:0.1em solid #fff;
-    width:6.0em;
-    font:0.68em  Verdana, Arial, Helvetica, 
-    sans-serif;
-    background:#f1f1f1;
+    width:8.0em;
+    font:0.68em  Verdana, Arial, Helvetica, sans-serif;
+    background:#eee;
     color:#333;
     text-align:center;
-    padding:0  0.2em 0.2em  0;
+    padding:0 0.2em 0.2em  0;
     text-decoration:none;
     }
     
@@ -65,3 +79,15 @@ div.nav1 a:hover{
     color:#fff;
     border-color: black #fafafa #fafafa #000;
     }    
+
+.imagemaolado {
+	display: flex;
+	flex-flow: row-reverse;
+	background-color: #ffffff;
+	margin: 25%;
+	font-size: 0.4em;
+}
+
+.imagemaolado img:hover {
+	border: 3px;
+}
