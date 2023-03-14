@@ -46,6 +46,17 @@ body {margin: 0px;}
     border-radius: 10px;
 }
 
+.box1 {
+    width: 375px;
+    height: 333px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+}
+
+
 /* Classes de contêineres terciários, coloque-os dentro de uma DIV da classe "box" */
 .boxContent {
     width: 100%;

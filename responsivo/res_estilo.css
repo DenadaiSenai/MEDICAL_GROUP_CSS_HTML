@@ -48,9 +48,9 @@ div.nav1 ul {
 div.nav1 li a {
     float:left;
     border-top:0.1em solid #fff;
-    border-right:0.1em dashed #909090;
+    border-right:0.1em solid #909090;
     border-bottom:0.1em solid #909090;
-    border-left:0.1em dashed #fff;
+    border-left:0.1em solid #fff;
     width:6.0em;
     background:#87cacf;
     color:#333;
