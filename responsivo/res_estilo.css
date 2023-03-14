@@ -10,11 +10,21 @@
 .textaligncenter {text-align: center;}
 
 .citacao {
-	font-family: monospace;
-	border: 1% solid #668000;
-	margin: 15%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: 12px outset #668000;
+	margin: 0px;
+	padding: 0px;
 	background-color: #ffffff4a;	
 	padding: 10px 10px 15px 15px;
+	width: 30em;
+}
+
+.citacao p {
+	padding: 0px;
+	margin: 0px;
+	border-width: 8px;
+	border-style:outset;
+	border-radius: 10px;
 }
 
 ul.nav { 
