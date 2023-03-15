@@ -68,7 +68,7 @@
 	width: 30em;
 }
 
-.citacao p {
+.citacao > p {
 	padding: 0px;
 	margin: 0px;
 	border-width: 8px;

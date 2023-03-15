@@ -54,7 +54,7 @@ div.fixa {
 div.cardazul {
     width: 50%;
     border: 15px dashed lightcoral;
-    padding: 50px;
+    padding: 0px;
     margin: 0 auto;
     background-color:blue;
 }
@@ -64,7 +64,7 @@ div.cardamarelo {
 
     width: 300px;
     border: 15px dashed green;
-    padding: 50px;
+    padding: 0px;
     margin: auto;
     background-color:yellow;
 }
