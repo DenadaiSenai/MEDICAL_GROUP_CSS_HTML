@@ -4,8 +4,8 @@
     </head>
     <style>
         * {
-            margin: 20px;
-            border: 10px dashed red;
+            margin: 10px;
+            
             padding: 10px; 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font:bolder;          
@@ -23,27 +23,60 @@
             border:5px dashed;
             color: green;
         }
+
+        .btn {
+            width:50%;
+            padding:0px;
+            margin:5px;
+        }
     </style>
     <body style="border-color:black">
         BODY
+        <div style="display: flex; flex-direction: row; margin: 0px; padding: 0px;">
+            <button class="btn" style="border-color: green; margin:0px">Enviar</button>
+            <button  class="btn" style="border-color: green; margin:0px">Enviar</button>            
+         </div>
         <div style="border-color:orange">
             DIV INICIAL
             <div style="border-color:blue">
                 DIV MEDIANA
                 <div style="border-color:green">
                     DIV INTERNA
-                    <p style="padding:20px; margin:50px; border-color:black">parágrafo 1</p>
+                    <p style="padding:5px; margin:5px; border-color:black">parágrafo 1</p>
                     <p class="classe1">parágrafo 2</p>
                     <p class="verde">parágrafo 3</p>
                     <p class="verde">parágrafo 3</p>
-                    <p class="classe1"">parágrafo 3</p>
-                    <p class="classe1"">parágrafo 3</p>
-                    <p class="classe1"">parágrafo 3</p>
-                    <p class="classe1"">parágrafo 3</p>
-                    <p class="classe1"">parágrafo 3</p>
-                    <p class="classe1"">parágrafo 3</p>
+                    <div style="display: flex; flex-direction: row; flex-wrap:wrap; border-color: black; border: 1px solid; padding: 0px;">
+                       <button class="btn" style="border-color: green;">Enviar</button>
+                       <button  class="btn">Enviar</button>
+                       <button  class="btn" style="border-color: blue;">Enviar</button>
+                    </div>
+                    <div style="display: flex; flex-direction: row; border-color: black;">
+                        <button style="width:50%; padding:0px; margin:10px">Enviar</button>
+                        <button  style="width:50%">Enviar</button>
+                     </div>                    
                 </div>
             </div>
         </div>
+        <div style="display: flex; flex-direction: row;">
+            <button class="btn" style="border-color: green;">Enviar</button>
+            <button  class="btn">Enviar</button>
+            <button  class="btn" style="border-color: blue;">Enviar</button>
+         </div>
+         <div class="container" style="border:5px solid black;">
+            <div style="display: flex; flex-direction: row;">
+                <div style="flex; flex-direction: column;">
+                    <img src="IMG\icons8-pharmacy-shop-96.png">
+                    <p>parágrafo 2</p>
+                    <p>parágrafo 3</p>
+                </div>
+                <div style="flex; flex-direction: column;">
+                    <img src="IMG\farol.jpg">
+                    <p>parágrafo 1</p>
+                    <p>parágrafo 2</p>
+                    <p>parágrafo 3</p>
+                </div>
+            </div>
+         </div>
     </body>
 </html>
