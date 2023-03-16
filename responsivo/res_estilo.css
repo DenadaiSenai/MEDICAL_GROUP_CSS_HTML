@@ -151,3 +151,7 @@ div.nav1 a:hover{
 .imagemaolado img:hover {
 	border: 3px;
 }
+
+.btn {
+	box-sizing: border-box;
+}
