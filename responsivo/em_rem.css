@@ -1,0 +1,29 @@
+html {
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+.tam1x {
+    font-size: 1rem;
+}
+
+.tam2x {
+    font-size: 2rem;
+}
+
+.tam3x {
+    font-size: 3rem;
+}
+
+div {
+    font-size:10px;
+}
+
+.tamd2x {
+    font-size: 2em;
+}
+
+.tamd4x {
+    font-size: 4em;
+}
