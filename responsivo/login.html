@@ -85,6 +85,12 @@
 			color: white;
 		}
 	</style>
+    <script>
+		function redirect(url){
+			window.location.assign(url)
+		}
+	</script>
+	</head>
 	<title>Transparent Login Page using HTML/CSS</title>
 </head>
 
@@ -94,14 +100,14 @@
 			<div class="row1">
 				<h1>LogIn</h1>
 				<div class="row">
-
 					<input type="email" name="Email" placeholder="Enter your email" />
 				</div>
 				<div class="row">
 
-					<input type="password" name="pass" placeholder="Enter your password" />
+					<input type="password" name="pass" placeholder="Enter your password"/>
 				</div>
 				<button class="btn">Submit</button>
+				<button class="btn" onclick="redirect('divisoes.html')">Redirect</button>
 			</div>
 		</div>
 	</div>
